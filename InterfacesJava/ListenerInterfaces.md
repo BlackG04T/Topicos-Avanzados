@@ -11,8 +11,8 @@ Para indicar que una clase implementa los métodos de una interface se utiliza l
 
 Una interface se declara:
 
-    interface nombre_interface {
-        tipo_retorno nombre_retorno ( lista_argumentos ) ;
+    **interface** *nombre_interface* {
+        *tipo_retorno* *nombre_retorno* ( *lista_argumentos* ) ;
         . . .
     }
 
@@ -114,3 +114,8 @@ Según el Listener:
 
 - **mouseDragged:** Click y arrastrar un componente
 - **mouseMoved:** Al mover el puntero sobre el elemento
+
+#### Fuentes
+
+- Galache, L. F. (s. f.). Eventos y listeners en Java Swing. SlideShare. Recuperado 29 de septiembre de 2021, de **<https://es.slideshare.net/laurafolgadogalache/eventos-y-listeners-en-java-swing>**
+- Listener en Java - PROGRAMACIÓN JAVA GRUPO SAN VALERO 2012 2013. (s. f.). Programación Java Grupo San Valero. Recuperado 29 de septiembre de 2021, de **<https://sites.google.com/a/svalero.com/programacion-java-grupo-san-valero-2012-2013/calendario-tareas-2a-evaluacion/listener-enjava>**
