@@ -44,7 +44,7 @@ Se produce al hacer click sobre un componenteo si hacemos enter cuando éste tie
 
 **Métodos:**
 
-> public void actionPerformed(ActionEvent e)
+    public void actionPerformed(ActionEvent e)
 
 **Eventos:**
 
@@ -59,9 +59,9 @@ Se produce al pulsar una tecla, segun el método cambiara la forma de pulsar la 
 
 **Métodos:**
 
-> public void keyTyped(KeyEvent e)
-> public void keyPressed(KeyEvent e)
-> public void keyReleased(KeyEvent e)
+    public void keyTyped(KeyEvent e)
+    public void keyPressed(KeyEvent e)
+    public void keyReleased(KeyEvent e)
 
 **Eventos:**
 
@@ -77,17 +77,17 @@ Se produce cuando un componente gana o pierde el foco, es decir, que está selec
 
 **Métodos:**
 
-> public void focusGained(FocusEvent e)
-> public void focusLost(FocusEvent e)
+    public void focusGained(FocusEvent e)
+    public void focusLost(FocusEvent e)
 
 ### MouseListener
 
 **Métodos:**
 
-> public void mouseClicked(MouseEvent e)
-> public void mouseEntered(MouseEvent e)
-> public void mouseExited(MouseEvent e)
-> public void mousePressed(MouseEvent e)
+    public void mouseClicked(MouseEvent e)
+    public void mouseEntered(MouseEvent e)
+    public void mouseExited(MouseEvent e)
+    public void mousePressed(MouseEvent e)
 
 **Eventos:**
 
@@ -105,8 +105,8 @@ Se produce con el movimiento del mouse
 
 **Métodos:**
 
-> public void mouseDragged(MouseEvent e)
-> public void mouseMoved(MouseEvent e)
+    public void mouseDragged(MouseEvent e)
+    public void mouseMoved(MouseEvent e)
 
 **Eventos:**
 
