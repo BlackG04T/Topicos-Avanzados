@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch HiloRunnable",
+            "request": "launch",
+            "mainClass": "HiloRunnable",
+            "projectName": "Topicos_1b710c45"
+        },
+        {
+            "type": "java",
+            "name": "Launch SerieNumerosFibonacci",
+            "request": "launch",
+            "mainClass": "SerieNumerosFibonacci",
+            "projectName": "Topicos_1b710c45"
+        },
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/bin/Debug/<target-framework>/<project-name.dll>",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        }
+    ]
+}
